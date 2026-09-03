@@ -114,6 +114,7 @@ tf.textRange.paragraphAttributes.justification = Justification.CENTER;
 
 - 本机实测可用中文字体名：`MicrosoftYaHei`、`MicrosoftYaHei-Bold`、`FangSong`、`KaiTi`、`NotoSansSC-Regular/Bold/...`（以 check_env.py 输出为准）。
 - 区域文本：`doc.textFrames.areaText(pathItem)`，先把矩形当容器。
+- 科研图西文字体规范（Arial/Helvetica、字号/线宽）→ `reference/scientific-figures.md` §2-§3。
 
 ## 6. 图层、编组、变换
 
@@ -152,6 +153,7 @@ doc.close(SaveOptions.DONOTSAVECHANGES);
 ```
 
 文件路径在 JSX 中用 `/` 分隔（ExtendScript File 也接受 `\\`，推荐 `/`）。
+**期刊投稿导出规范（300/600/1200dpi、EPS/TIFF、CMYK）→ `reference/scientific-figures.md` §3-§4。**
 
 ## 8. 完整示例一：简易 Logo
 
